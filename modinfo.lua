@@ -1,11 +1,11 @@
 -- 名称
-name = "Zax Items"
+name = "Reward Order"
 -- 描述
-description = "LevelUp!"
+description = "悬赏令!"
 -- 作者
 author = "Zax"
 -- 版本
-version = "0.3"
+version = "0.1.0"
 -- klei官方论坛地址，为空则默认是工坊的地址
 forumthread = ""
 -- modicon 下一篇再介绍怎么创建的
