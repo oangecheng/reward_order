@@ -1,7 +1,18 @@
+-- 判断是否是中文
+local isCh = locale == "zh" or locale == "zhr"
+
 -- 名称
-name = "Reward Order"
+name = isCh and "悬赏令" or "Reward Order"
+
 -- 描述
-description = "悬赏令!"
+description = isCh and
+[[
+    完成猪王发布的悬赏令，获取奖励吧！
+]] or
+[[
+    Complete the reward order issued by Pig King and get the reward!
+]]
+
 -- 作者
 author = "Zax"
 -- 版本
